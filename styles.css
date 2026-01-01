@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: "Roboto", sans-serif; /* Sets a default font stack */
+    line-height: 1.5; /* Improves readability */
+    color: #333; /* Sets a default text color */
+    background-color: #fff; /* Sets a default background color */
+}
