@@ -7,6 +7,96 @@
 body {
     font-family: "Roboto", sans-serif; /* Sets a default font stack */
     line-height: 1.5; /* Improves readability */
-    color: #333; /* Sets a default text color */
-    background-color: #fff; /* Sets a default background color */
+    color:black; /* Sets a default text color */
+    background-color: white; /* Sets a default background color */
+    text-align: center;
+}
+
+header {
+    margin-bottom: 25px;
+}
+
+.body-items {
+    margin-bottom: 50px;
+}
+
+a {
+    color: black;
+}
+
+header h1 {
+    text-align: center;
+}
+
+
+nav {
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+#mission {
+    background-image: url("./imgs/skyscrapers.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mission .text {
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    padding: 40px 0;
+}
+
+#portfolio h2, p {
+    text-align: center;
+}
+
+#portfolio .portfolio-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.portfolio-item-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolio-item-content img {
+    height: 200px;
+    width: auto;
+    padding: 10px;
+}
+
+#team {
+    background-image: url("./imgs/blurred-road.webp");
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.team-item {
+    flex-basis: 280px;
+    padding: 10px;
+}
+
+.team-item img {
+    width: 200px;
+    height: auto;
+}
+
+.team-item h3, .team-item p {
+    color:  white;
 }
