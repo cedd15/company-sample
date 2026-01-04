@@ -17,7 +17,7 @@ header {
 }
 
 .body-items {
-    margin-bottom: 50px;
+    margin: 50px 0;
 }
 
 a {
@@ -66,12 +66,14 @@ nav li {
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
+    margin-top: 25px;
 }
 
 .portfolio-item-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
 }
 
 .portfolio-item-content img {
